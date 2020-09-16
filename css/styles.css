@@ -27,7 +27,6 @@ body {
   color: var(--primary-text);
   background-color: var(--white);
 	font-family: "Roboto", sans-serif;
-	font-style: normal;
   letter-spacing: 0.03em;
 }
 
@@ -198,7 +197,7 @@ color: var(--active);
 
 .effective-title {
 	display: inline-block;
-	margin-bottom: 30px;
+	margin: 0 0 30px;
   color: var(--white);
   font-weight: 900;
   font-size: 44px;
@@ -521,7 +520,7 @@ margin-bottom: 16px;
 	height: 90px;
 	border: 1px solid var(--decoration-color);
   border-radius: 4px;
-  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients .link:hover,
